@@ -1,0 +1,15 @@
+// ltl-dot-render/main.ltl
+//
+// Graphviz DOT layout engine (force-directed fallback).
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-dot-render v0.1.0")
+    io::println("Graphviz DOT layout engine (force-directed fallback).")
+    0
+}
