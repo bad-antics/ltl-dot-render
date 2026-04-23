@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_dot_render
+
+import std::io
+use ltl_dot_render as lib
+
+fn main() {
+    io::println("ltl_dot_render demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
